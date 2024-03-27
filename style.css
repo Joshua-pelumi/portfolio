@@ -1,0 +1,166 @@
+* {
+    color: whitesmoke;
+    background-color: #1D242B;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #C7EEFF;
+    border: 2px #FAFAFA;
+    width: 100%;
+    margin: 0vh 0% 2px 0vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    color: whitesmoke;
+}
+
+#navlinks {
+    margin-right: 10vh;
+}
+
+header nav li {
+    color: whitesmoke;
+    display: inline-block;
+    list-style: none;
+    background-color: white;
+}
+
+header nav li a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+}
+
+header nav li a:hover {
+    color: #C7EEFF;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-image: url(./img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#textarea1{
+    padding: 20px;
+    margin-top: Opx;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    /* transform: translate(-20%, -10%); */
+}
+
+#textarea1 p{
+    padding: 30px;
+    width: 300px;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#imgGrid{
+    max-width: 60%;
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+#imgGrid1{
+    object-fit: cover;
+    grid-column: 1/3;
+    object-fit: cover;
+    grid-row: 1/4;
+}
+
+#imgGrid2{
+    max-width: 700px;
+    grid-row: 1;
+    object-fit: cover;
+}
+
+#imgGrid3{
+    grid-row: 2/4;
+    object-fit: cover;
+}
+
+#textarea2{
+    padding: 30px;
+    margin-top: 70px;
+}
+
+#textarea2 p{
+    padding-top: 20px;
+}
+
+.conclusion{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 20px;
+}
+
+#textarea3{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 20px;
+}
+
+#textarea3 h3{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.list1{
+    padding: 0 20px 20px 20px;
+
+}
+
+.list1 li{
+    list-style: square;
+    padding-bottom: 15px;
+}
+
+.list1 li a{
+    text-decoration: none;
+    color: #c7eeff;
+}
+
+.list1 li a:hover{
+    color: aqua;
+}
+
+#feedbackform{
+    padding: 20px;
+}
+
+#feedbackform label{
+    position: relative;
+    top: -170px;
+    left: 0px;
+    color: whitesmoke;
+}
+
+#feedbackform textarea{
+    padding-top: 20px;
+}
