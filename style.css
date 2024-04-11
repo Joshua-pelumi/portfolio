@@ -19,6 +19,7 @@ header {
 
 #logo {
     color: whitesmoke;
+    padding: 5px;
 }
 
 #navlinks {
@@ -55,10 +56,11 @@ header nav li a:hover {
 
 #textarea1{
     padding: 20px;
-    margin-top: Opx;
-    position: absolute;
-    top: 20%;
-    left: 20%;
+    margin-top: 50px;
+    /* position: absolute; */
+    align-self: center;
+    top: 40%;
+    left: 50dvw;
     /* transform: translate(-20%, -10%); */
 }
 
@@ -100,6 +102,10 @@ header nav li a:hover {
     object-fit: cover;
 }
 
+#myButton{
+    padding: 5px;
+}
+
 #textarea2{
     padding: 30px;
     margin-top: 70px;
@@ -113,7 +119,6 @@ header nav li a:hover {
     background-color: black;
     display: flex;
     justify-content: space-around;
-
     padding: 20px;
 }
 
