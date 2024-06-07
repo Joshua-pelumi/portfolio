@@ -1,0 +1,11 @@
+const productSchema = mongoose.scheme(
+    {
+        name:{
+            type: string,
+            required: true, ["Enter a name"]
+        }
+        price:{
+            
+        }
+    }
+)
