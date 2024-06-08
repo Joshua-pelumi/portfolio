@@ -18,6 +18,7 @@ app.get('/data', (req,res)=>{
     res.send("This is data route")
 })
 
+//get all products from database
 app.get('/products', async (req,res)=>{
     try {
         const products = await Product.find({});
